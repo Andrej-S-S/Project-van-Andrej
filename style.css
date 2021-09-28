@@ -1,0 +1,82 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f3f2f2;
+}
+
+nav{
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 8vh;
+    background-color: #89CFF0;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.aboutme {
+    text-align: center;
+    width: 40%;
+    margin-left: 30.5vw;
+}
+
+.aboutme h1{
+    margin-top: 20vh;
+}
+
+.aboutme img{
+    margin-top: 4vh;
+    width: 40vh;
+    height: 40vh;
+    filter: drop-shadow(0px 3.5px 3.5px black);
+}
+
+.welcome{
+    text-align: center;
+    width: 40%;
+    margin-left: 30.5vw;
+}
+
+.welcome h1{
+    margin-top: 20vh;
+}
+
+.welcome img{
+    margin-top: 4vh;
+    width: 40vh;
+    height: 40vh;
+    filter: drop-shadow(0px 3.5px 3.5px black);
+}
+
+
+.footer {
+    text-align: center;
+    position: flex;
+    margin-top: 12vh;
+}
+
+
